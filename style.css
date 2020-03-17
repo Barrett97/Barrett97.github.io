@@ -1,0 +1,31 @@
+@font-face {
+	font-family: Oswald;
+	src: url(font/Oswald/Oswald-Light.ttf);
+}
+
+ * {
+	font-family: Oswald;
+	color: white;
+ }
+		
+h1 {
+	text-align: center;
+	letter-spacing: 15px;
+}
+
+body {
+	background="bg/bg.jpg";
+}
+
+p {
+	text-align: center;
+	background-image:bg/bg.jpg;
+}
+
+div {
+	text-align: center;
+	padding: 30px;
+	border: 2px solid gray;
+	margin: 0;
+	
+}
