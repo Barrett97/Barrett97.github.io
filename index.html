@@ -1,12 +1,85 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<h1> BARRET TRAN </h1>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Barret Tran Website</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="game/css/game.css">
+
 		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="java.js"></script>
+		
 	</head>
-	<body background="bg/bg.jpg">
-		<p><a href="https://www.github.com/Barrett97/" target="_blank"> GitHub </a></p>
-		<p><a href="https://www.instagram.com/barrett.tran/" target="_blank"> Instagram </a></p>
-		<div> Education: Computer Science @ York University <br/> </div>
+	<body>
+
+		<table id="table">
+			<tr>
+				<th id="toprow"> <div>BARRET TRAN</div></th>
+			</tr>
+
+			<tr>
+				<td id="clockrow">
+					<div id="clockbox"> </div>
+
+					<script>
+						GetClock();
+						setInterval(GetClock, 1000);
+					</script>
+				</td>
+			</tr>
+
+			<tr>
+				<td id="socialrow">
+					<p id="social">
+						<img src="icons/github.png" alt="git" style="width:20px;height:20px;">
+						<a style="text-decoration: none" onmouseover="bigImg(this)" onmouseout="normalImg(this)" href="https://www.github.com/Barrett97/" target="_blank"> GitHub </a>
+						
+						<span style="display:inline-block; width:20px;"></span> <!--spacing between social media links-->
+						
+						<img src="icons/insta.png" alt="git" style="width:20px;height:20px;">
+						<a style="text-decoration: none" onmouseover="bigImg(this)" onmouseout="normalImg(this)" href="https://www.instagram.com/barrett.tran/" target="_blank"> Instagram </a>
+						
+						<span style="display:inline-block; width:20px;"></span>
+						
+						<img src="icons/facebookblack.png" alt="git" style="width:20px;height:20px;">
+						<a style="text-decoration: none" onmouseover="bigImg(this)" onmouseout="normalImg(this)" href="https://www.facebook.com/barrett.tran" target="_blank"> Facebook </a>
+						
+						<span style="display:inline-block; width:20px;"></span>
+						
+						<img src="icons/linkedin.png" alt="git" style="width:20px;height:20px;">
+						<a style="text-decoration: none" onmouseover="bigImg(this)" onmouseout="normalImg(this)" href="https://www.linkedin.com/in/barret-t-62b75490/" target="_blank"> LinkedIn </a>
+					</p>
+				</td>
+			</tr>
+
+			<tr>
+				<td id="directory">
+					<div>
+						<a style="text-decoration: none" onmouseover="bigImg(this)" onmouseout="normalImg(this)" href="index.html">Home</a>
+						<a style="text-decoration: none" onmouseover="bigImg(this)" onmouseout="normalImg(this)" href="pages/photo.html">Photographs</a>
+						<a style="text-decoration: none" onmouseover="bigImg(this)" onmouseout="normalImg(this)" href="pages/photo.html">Platform-Game</a>
+					</div>
+
+				</td>
+			</tr>
+
+			<tr>
+				<td id="personalrow">
+					<p>This is a personal website made from scratch and inspired by York University's EECS course websites.</p>
+					
+					<p>I am currently working on open source projects such as Slide for Reddit, Omni Notes, and Mozilla's Firefox both available on the Android PlayStore and F-Droid. My contributions can be found on my Github link above.</p>
+					
+					<div> 
+						<b>Email</b>: tranbarrett (at) gmail (dot) com <br/>
+					</div>
+					
+					<div> <b>Degree</b>: Bachelor of Science in Computer Science @ York University <br/> </div>
+				</td>
+			</tr>
+
+
+		</table>
 	</body>
 </html>

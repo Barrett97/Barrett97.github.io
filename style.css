@@ -3,9 +3,9 @@
 	src: url(font/Oswald/Oswald-Light.ttf);
 }
 
- * {
+* {
 	font-family: Oswald;
-	color: white;
+	color: black;
  }
 		
 h1 {
@@ -13,19 +13,84 @@ h1 {
 	letter-spacing: 15px;
 }
 
-body {
-	background="bg/bg.jpg";
+#table {
+	border-spacing: 1em;
+	width: 100%;
 }
 
-p {
-	text-align: center;
-	background-image:bg/bg.jpg;
+#toprow {
+	background-color: white;
+	border: groove;
+	letter-spacing: 20px;
+	font-size: 40px
 }
+
+#socialrow {
+	background-color: white;
+	border: groove;
+}
+
+#social {
+	font-size: 20px;
+}
+
+#directory {
+	background-color: white;
+	border: groove;
+	word-spacing: 50px;
+}
+
+#photorow {
+	background-color: white;
+	border: groove;
+	
+	padding: 50px;
+	text-align: center;
+}
+
+#clockrow {
+	background-color: white;
+	border: groove;
+	font-size: 20px;
+}
+
+#van {
+	max-width: 50%;
+	border-radius: 8px;
+	border: 1px solid black;
+}
+
+#personalrow {
+	background-color: white;
+	border: groove;
+	font-size: 20px;
+	padding-left: 50px;
+	padding-rightr: 50px;
+}
+
+.button {
+  background-color: #e4b870;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+body {
+	background-image: url(bg/bg.jpg);
+}
+
+p { text-align: center; }
 
 div {
 	text-align: center;
-	padding: 30px;
-	border: 2px solid gray;
+	padding: 15px;
+	border: 0;
 	margin: 0;
-	
 }
