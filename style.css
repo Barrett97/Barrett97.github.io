@@ -84,6 +84,7 @@ h1 {
 
 body {
 	background-image: url(bg/bg.jpg);
+   /* background-color: black; */
 }
 
 p { text-align: center; }
@@ -94,3 +95,10 @@ div {
 	border: 0;
 	margin: 0;
 }
+
+/* body {
+   background-color: #e5e5f7;
+   opacity: 0.8;
+   background-size: 20px 20px;
+   background-image:  repeating-linear-gradient(to right, #000000, #000000 1px, #e5e5f7 1px, #e5e5f7);
+} */
