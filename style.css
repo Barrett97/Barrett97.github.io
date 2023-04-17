@@ -1,10 +1,10 @@
 @font-face {
-	font-family: Oswald;
-	src: url(font/Oswald/Oswald-Light.ttf);
+	font-family: Ubuntu;
+	src: url(fonts/Ubuntu/Ubuntu-Light.ttf);
 }
 
 * {
-	font-family: Oswald;
+	font-family: Ubuntu;
 	color: black;
  }
 		
@@ -21,7 +21,7 @@ h1 {
 #toprow {
 	background-color: white;
 	border: groove;
-	letter-spacing: 20px;
+	letter-spacing: 10px;
 	font-size: 40px
 }
 
