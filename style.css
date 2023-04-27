@@ -1,71 +1,71 @@
 @font-face {
-	font-family: Ubuntu;
-	src: url(fonts/Ubuntu/Ubuntu-Light.ttf);
+  font-family: Ubuntu;
+  src: url(fonts/Ubuntu/Ubuntu-Light.ttf);
 }
 
 * {
-	font-family: Ubuntu;
-	color: black;
- }
-		
+  font-family: Ubuntu;
+  color: black;
+}
+
 h1 {
-	text-align: center;
-	letter-spacing: 15px;
+  text-align: center;
+  letter-spacing: 15px;
 }
 
 #table {
-	border-spacing: 1em;
-	width: 100%;
+  border-spacing: 1em;
+  width: 100%;
 }
 
 #toprow {
-	background-color: white;
-	border: groove;
-	letter-spacing: 10px;
-	font-size: 40px
+  background-color: white;
+  border: groove;
+  letter-spacing: 10px;
+  font-size: 40px;
 }
 
 #socialrow {
-	background-color: white;
-	border: groove;
+  background-color: white;
+  border: groove;
 }
 
 #social {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 #directory {
-	background-color: white;
-	border: groove;
-	word-spacing: 50px;
+  background-color: white;
+  border: groove;
+  word-spacing: 50px;
 }
 
 #photorow {
-	background-color: white;
-	border: groove;
-	
-	padding: 50px;
-	text-align: center;
+  background-color: white;
+  border: groove;
+
+  padding: 50px;
+  text-align: center;
 }
 
 #clockrow {
-	background-color: white;
-	border: groove;
-	font-size: 20px;
+  background-color: white;
+  border: groove;
+  font-size: 20px;
 }
 
 #van {
-	max-width: 50%;
-	border-radius: 8px;
-	border: 1px solid black;
+  max-width: 50%;
+  border-radius: 8px;
+  border: 1px solid black;
 }
 
 #personalrow {
-	background-color: white;
-	border: groove;
-	font-size: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
+  background-color: white;
+  border: groove;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .button {
@@ -83,17 +83,49 @@ h1 {
 }
 
 body {
-	background-image: url(bg/bg.jpg);
-   /* background-color: black; */
+  background-image: url(bg/bg.jpg);
+  /* background-color: black; */
 }
 
-p { text-align: center; }
+p {
+  text-align: center;
+}
 
 div {
-	text-align: center;
-	padding: 15px;
-	border: 0;
-	margin: 0;
+  text-align: center;
+  padding: 15px;
+  border: 0;
+  margin: 0;
+}
+
+#tdEnd {
+  padding: 0 15px;
+  text-align: end;
+  font-weight: bold;
+}
+
+#tdStart {
+  padding: 0 15px;
+  text-align: start;
+}
+
+#tableRow {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.center {
+  width: 100%;
+  table-layout: fixed;
+  /* margin-left: auto;
+   margin-right: auto; */
+}
+
+.line {
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /* body {
