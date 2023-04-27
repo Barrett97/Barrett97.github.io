@@ -60,4 +60,11 @@ function GetClock() {
     document.getElementById('clockbox').innerHTML=clocktext;
 }
 
+function SEmail() {
+    var x = document.getElementById('email');
+        x.style.display = 'block';
+    var y = document.getElementById('text');
+        y.style.display = 'none';
+}
+
 showTime();
