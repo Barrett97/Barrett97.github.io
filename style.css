@@ -25,6 +25,13 @@ h1 {
   font-size: 40px;
 }
 
+#normaltoprow {
+  background-color: white;
+  border: groove;
+  letter-spacing: 5px;
+  font-size: 40px;
+}
+
 #socialrow {
   background-color: white;
   border: groove;
